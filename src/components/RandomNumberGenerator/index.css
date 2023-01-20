@@ -1,0 +1,27 @@
+/* Write your CSS here */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+}
+
+.login-button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: red;
+}
